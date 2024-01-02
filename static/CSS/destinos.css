@@ -1,0 +1,80 @@
+body {
+    background-color: #F5FFFA;
+    padding-top: 0;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-bottom: 0px;
+}
+
+.banner {
+    position: relative;
+    width: 100%;
+    height: 100px; /* Altura do banner, ajuste conforme necessário */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+    color: #170644; /* Cor do texto */
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(24, 7, 50, 0.5); /* Cor do overlay (fundo semi-transparente) */
+}
+
+.country-name {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 36px; /* Tamanho do texto do nome do país */
+}
+
+.banner div {
+    padding: 5px;
+}
+
+.bandeira {
+    width: 50px;
+    height: 50px;
+    display: block;
+    margin: 0 auto;
+}
+
+p {
+    font-family: sans-serif;
+    font-size: 16pt;
+    text-indent: 70px;
+    text-align: justify;
+}
+
+img {
+    width: 600px;
+    height: 400px;
+    display: block;
+    margin: 0 auto;
+}
+
+/* Estilos para o botão */
+#voltar-inicial {
+    display: block;
+    text-align: center;
+    background-color: #007BFF; /* Cor de fundo do botão */
+    color: #fff; /* Cor do texto do botão */
+    width: 200px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    text-decoration: none; /* Remove a sublinhado padrão dos links */
+    margin: 0 auto;
+}
+
+/* Estilos para o botão ao passar o mouse (hover) */
+#voltar-inicial:hover {
+    background-color: #0056b3; /* Cor de fundo do botão ao passar o mouse */
+}

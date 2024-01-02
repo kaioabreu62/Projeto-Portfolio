@@ -1,0 +1,7 @@
+Normas de uso:
+
+1 - Deve-se abrir a pasta "Projeto Final Portfólio" no Visual Code;
+
+2 - No arquivo de Python, "app.py" é onde usei o Flask para armazenar as páginas simulando um servidor;
+
+3 - Nesse mesmo arquivo, "app.py", execute-o para que possa visualizar todas as animações e o envio de mensagem por email, por causa que somente funciona utilizando este simulador de servidor.

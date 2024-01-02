@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+
+        body{
+            background-color: #2980B9 ;
+        }
+        .paragrafo-inicial{
+            text-align: center;
+        }
+        .formulario{
+            text-align: center;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+
+        .rotulos{
+            display: inline-block;
+            width: 70px;
+            text-align: left;
+            margin-right: 10px;
+        }
+
+        .campos{
+            display: inline-block;
+            width: 200px;
+            box-sizing: border-box;
+            text-align: center;
+            margin-bottom: 10px;
+        }
+
+    </style>
+</head>
+<body>
+
+    <div>
+        <ul>
+            <li><a href="/inicio_dest">Voltar ao Site</a></li>
+        </ul>
+    </div>
+    
+    <div class="paragrafo-inicial">
+        <h1>Contato</h1>
+        <p>Para contatar o responsável da página, forneça algumas informações pertinentes para identificação do usuário!</p>
+    </div>
+
+    <div class="formulario">
+        <form action="destinos.html" method="POST">
+            <label class="rotulos" for="nome">NOME:</label>
+            <input class="campos" type="text" name="nome" id="nome"><br><br>
+            <label class="rotulos" for="cpf">CPF:</label>
+            <input class="campos" type="text" name="cpf" id="cpf"
+            placeholder="999.999.999-99"><br><br>
+            <label class="rotulos" for="email">E-MAIL:</label>
+            <input class="campos" type="email" name="email" id="email"
+            placeholder="address@server"><br><br>
+            <label class="rotulos" for="telefone">TELEFONE:</label>
+            <input class="campos" type="tel" name="telefone" id="telefone"
+            placeholder="(xx) xxxxx-xxxx"><br><br>
+            <label class="rotulos" for="cidade">CIDADE:</label>
+            <input class="campos" type="text" name="cidade" id="cidade"><br><br>
+            <label for="mensagem">Mensagem</label>
+            <textarea id="mensagem" name="mensagem"
+                      rows="10" cols="50"></textarea><br><br>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </form>
+    </div>
+</body>
+</html>
