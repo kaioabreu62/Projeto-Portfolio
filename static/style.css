@@ -208,7 +208,7 @@ i.menu-mobile {
 }
 
 @media (max-width: 1860px){
-    [data-anime="right"] {
+    [data-anime="left"] {
       transform: translate3d(0, 100%, 0);
     }
   }
