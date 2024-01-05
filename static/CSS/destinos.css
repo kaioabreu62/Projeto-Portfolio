@@ -78,3 +78,44 @@ img {
 #voltar-inicial:hover {
     background-color: #0056b3; /* Cor de fundo do botão ao passar o mouse */
 }
+
+/* Media queries */
+
+@media only screen and (max-width: 600px) {
+    body {
+      padding-left: 18px;
+      padding-right: 18px;
+    }
+  
+    .banner {
+      height: 100px;
+    }
+
+    .bandeira {
+        width: 50px;
+        height: 50px;
+        display: block;
+        margin: 0 auto;
+    }
+  
+    .overlay {
+      height: 100%;
+    }
+  
+    .country-name {
+      text-align: center;
+    }
+  
+    img {
+      width: 100%;
+      height: auto;
+    }
+
+    #voltar-inicial {
+        width: 150px;
+        padding: 10px;
+        font-size: 12px;
+        text-align: center;
+    }
+  
+}

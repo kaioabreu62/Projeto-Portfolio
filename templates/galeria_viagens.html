@@ -13,7 +13,6 @@
         .banner {
             margin-top: 10px; /* Espaço entre o cabeçalho e o banner */
             margin-bottom: 10px;
-
         }
 
         /* Estilos para o menu de navegação */
@@ -188,6 +187,146 @@
             font-size: 16px;
             text-decoration: none; /* Remove a sublinhado padrão dos links */
             margin: 0 auto;
+        }
+
+        @media only screen and (max-width: 600px) {
+
+            #pagina-inicial {
+                text-align: center;
+                padding: 15px;
+            }
+
+            .banner {
+                margin-top: 5px; /* Espaço entre o cabeçalho e o banner */
+                margin-bottom: 5px;
+            }
+
+            /* Estilos para o menu de navegação */
+            nav ul {
+                list-style-type: none; /* Remove marcadores de lista */
+                padding: 0;
+            }
+
+            nav ul li {
+                display: inline; /* Exibe os itens de menu em linha */
+                margin-left: 18px; /* Espaço entre os itens de menu */
+            }
+
+            nav a {
+                text-decoration: none; /* Remove sublinhado dos links */
+                color: white; /* Cor do texto do menu */
+                font-weight: bold; /* Estilo de fonte negrito */
+                font-size: 16px; /* Tamanho da fonte do menu */
+            }
+
+            .banner {
+                margin-bottom: 18px;
+            }
+
+            .banner img {
+                max-width: 100%;
+                height: auto;
+            }
+
+            header {
+                background-color: #333; /* Cor de fundo do cabeçalho */
+                padding: 35px; /* Espaçamento interno no cabeçalho */
+                text-align: center; /* Centraliza o conteúdo no cabeçalho */
+                position: relative; /* Permite controlar a posição dos elementos filhos */
+            }
+
+            .grid {
+                display: grid;
+                grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+                grid-gap: 20px;
+            }
+
+            .grid img {
+                width: 100%;
+                height: 80%;
+                border-radius: 5px;
+            }
+
+            .grid h2 {
+                margin-top: 18px;
+                font-size: 16px;
+            }
+
+            /* Estilos para a seção "Sobre Nós" */
+            #sobre-nos {
+                padding: 16px; /* Espaçamento interno na seção */
+                text-align: center; /* Centraliza o conteúdo no centro da seção */
+            }
+
+            #sobre-nos h2 {
+                font-size: 22px; /* Tamanho da fonte para o título */
+                margin-bottom: 18px; /* Espaço inferior para separar o título do conteúdo */
+            }
+
+            #sobre-nos p {
+                font-size: 12px; /* Tamanho da fonte para o texto */
+                margin-bottom: 18px; /* Espaço inferior entre os parágrafos */
+            }
+
+            .container {
+                padding-left: 50px;
+                padding-right: 50px;
+            }
+            
+            .membro-equipe {
+                display: block; /* Exibe as fotos da equipe em linha */
+                justify-content: center; /* Centraliza horizontalmente as fotos da equipe */
+                align-items: center; /* Alinha verticalmente ao centro */
+                margin-bottom: 20px; /* Espaçamento inferior entre os membros da equipe */
+            }
+
+            .membro-equipe img {
+                border-radius: 50%; /* Cria um efeito de borda arredondada nas imagens */
+                width: 150px; /* Largura da imagem do membro da equipe */
+                height: auto; /* Mantém a proporção da imagem */
+                margin-right: 20px; /* Espaçamento à direita da imagem */
+            }
+
+            .membro-equipe h3 {
+                font-size: 24px; /* Tamanho da fonte para o nome do membro da equipe */
+            }
+
+            .membro-equipe p {
+                font-size: 18pt; /* Tamanho da fonte para a descrição */
+                text-align: justify;
+            }
+
+            .redes-sociais {
+                list-style: none;
+                display: block; /* Exibe os elementos como uma linha flexível */
+                justify-content: center; /* Centraliza horizontalmente os elementos */
+                align-items: center; /* Centraliza verticalmente os elementos */
+            }
+
+            .redes-sociais li {
+                margin-right: 5px; /* Espaço entre os itens */
+            }
+
+            .redes-sociais img {
+                height: 40px;
+                margin-right: 2px; /* Espaço entre o ícone e o texto */
+            }
+
+            .pagina {
+                font-size: 12pt;
+            }
+
+            /* Estilos para o botão */
+            #voltar-ao-topo {
+                display: block;
+                text-align: center;
+                width: 200px;
+                padding: 10px;
+                border: none;
+                border-radius: 5px;
+                font-size: 16px;
+                
+            }
         }
 
     </style>
